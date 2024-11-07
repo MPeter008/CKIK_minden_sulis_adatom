@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang ="hu">
+	<head>
+		<title>Ismétlés</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h1>Év eleji ismétlés</h1>
+		
+		<h2 id="tartalomj">Tartalomjegyzék</h2>
+		
+		<ul>
+			<li><a href="#hiperhiv">Hiperhivatkozás</a></li>
+			<li><a href="#tartalomj">Tartalomjegyzék</a></li>
+			<li><a href="#cims">Címsorok használata</a></li>
+			<li><a href="#ketcim">A kettes számú címsor a hatból</a></li>
+			<li><a href="#bekezd">Bekezdés</a></li>
+			<li><a href="#kepek">Képek</a></li>
+		</ul>
+		
+		<h2 id="cims">Címsorok használata</h2>
+		
+		<h1>Címsor</h1>
+		<h2 id="ketcim">Címsor</h2>
+		<h3>Címsor</h3>
+		<h4>Címsor</h4>
+		<h5>Címsor</h5>
+		<h6>Címsor</h6>
+		<h2 id="bekezd">Bekezdés</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elementum et diam id mattis. Sed at consectetur nisi, vitae blandit est. Nunc scelerisque nisl sed nibh lobortis consequat. Mauris facilisis nulla sed quam iaculis, eu faucibus est dapibus. Duis faucibus mi a erat ultricies scelerisque. Integer tristique tortor nec congue rhoncus. <br> íenean faucibus faucibus dolor, vel ullamcorper quam consectetur sit amet. Sed iaculis eros sit amet magna semper, vitae ornare sapien cursus. Nunc lectus leo, posuere sit amet lectus in, commodo tempus nibh. Maecenas ultricies tortor eu ante vestibulum luctus. Fusce blandit nisl sed ligula pulvinar feugiat. Vivamus ultrices urna vel sem ullamcorper lacinia.
+		</p>
+		<p>
+		Aliquam volutpat molestie magna quis varius. In feugiat tortor id mauris tristique cursus. Fusce a augue maximus, rutrum quam nec, facilisis lorem. Nulla facilisi. Vestibulum tempus euismod augue, et consectetur mauris rutrum ac. Nam vel elementum lectus, nec congue turpis. Aliquam cursus nulla a ultricies imperdiet. Aliquam sapien lectus, efficitur eget malesuada sed, tincidunt ut dui. Praesent et gravida urna. Ut placerat efficitur urna ut mollis. Morbi eleifend purus sed tempus fringilla. Proin dapibus ac felis sodales ultricies. Sed odio lorem, fermentum id quam nec, efficitur cursus augue.
+		</p>
+		
+		<hr/>
+		
+		<ul type="square">
+		<!-- type="circle" type="disc" type="none" -->
+			<li>szimbólumos lista1</li>
+			<li>szimbólumos lista2</li>
+			<li>szimbólumos lista3</li>
+			<li>szimbólumos lista4</li>
+			<li>szimbólumos lista5</li>
+			<li>szimbólumos lista6</li>
+		</ul>
+		<ol  type="I"> <!-- <= nagy római, type="1" (arab számok),  type="i" (kis római),  type="a" (kisbetűk), type="A" (nagybetűk -->
+			<li>számozott lista1</li>
+			<li>számozott lista2</li>
+			<li>számozott lista3</li>
+			<li>
+				<ul type="circle">
+					<li>szimbólumos lista1</li>
+					<li>szimbólumos lista2</li>
+					<li>szimbólumos lista3</li>
+				</ul>
+			</li>
+			<li>számozott lista4</li>
+			<li>számozott lista5</li>
+			<li>számozott lista6</li>
+		</ol>
+		
+		<h2 id="kepek">Képek</h2>
+		
+		<a href="kepek/irorszag1.jpg" target="_blank">
+			<img src="kepek/irorszag1.jpg" alt="tajkep1" title="tájkép1" width="1800"/>
+		</a>
+		
+		<h2 id="hiperhiv">Hiperhivatkozás</h2>
+		
+		<p>Szöveg
+			<!-- <a href="https://plusz.ckik.hu">Kattintson rám!</a> -->
+			<a href="kepek/irorszag1.jpg" target="_blank" >Kattintson rám!</a>
+		</p>
+		
+		<h2>Táblázat készítése</h2>
+		
+		<table border="1">
+			<tr>
+				<td colspan="3">
+					A
+					
+					B
+					
+					C
+				</td>
+				<td colspan="2">
+					1
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="2">
+					D
+					<br>
+					G
+				</td>
+				<td>
+					E
+				</td>
+				<td rowspan="2" colspan="2">
+					F
+
+					2
+					<br>
+					I
+					
+					3
+				</td>
+			</tr>
+			<tr>
+				<td>
+					H
+				</td>
+			</tr>			
+		</table>
+		
+		<h2>Házi feladat</h2>
+		<table border="1">
+			<tr>
+				<td>kutya
+				</td>
+				<td rowspan="3">kutya
+				</td>
+				<td>kutya
+				</td>
+				<td>kutya
+				</td>
+				<td rowspan="2">kutya
+				</td>
+			</tr>
+			<tr>
+				<td>kutya
+				</td>
+				<td colspan="2" rowspan="2">kutya
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="3">kutya
+				</td>
+				<td>kutya
+				</td>
+			</tr>
+			<tr>
+				<td>kutya
+				</td>
+				<td>kutya
+				</td>
+				<td colspan="2">kutya
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" rowspan="2">kutya
+				</td>
+				<td>kutya
+				</td>
+			</tr>
+			<tr>
+				<td>kutya
+				</td>
+				<td>kutya
+				</td>
+			</tr>
+		</table>
+		
+		<hr/>
+	</body>
+</html>

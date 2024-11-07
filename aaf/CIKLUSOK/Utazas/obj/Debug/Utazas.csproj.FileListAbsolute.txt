@@ -1,0 +1,7 @@
+H:\11.o\aaf\CIKLUSOK\Utazas\bin\Debug\Utazas.exe.config
+H:\11.o\aaf\CIKLUSOK\Utazas\bin\Debug\Utazas.exe
+H:\11.o\aaf\CIKLUSOK\Utazas\bin\Debug\Utazas.pdb
+H:\11.o\aaf\CIKLUSOK\Utazas\obj\Debug\Utazas.csproj.AssemblyReference.cache
+H:\11.o\aaf\CIKLUSOK\Utazas\obj\Debug\Utazas.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\CIKLUSOK\Utazas\obj\Debug\Utazas.exe
+H:\11.o\aaf\CIKLUSOK\Utazas\obj\Debug\Utazas.pdb

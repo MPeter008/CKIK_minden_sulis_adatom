@@ -1,0 +1,7 @@
+H:\11.o\aaf\Viz\bin\Debug\Viz.exe.config
+H:\11.o\aaf\Viz\bin\Debug\Viz.exe
+H:\11.o\aaf\Viz\bin\Debug\Viz.pdb
+H:\11.o\aaf\Viz\obj\Debug\Viz.csproj.AssemblyReference.cache
+H:\11.o\aaf\Viz\obj\Debug\Viz.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\Viz\obj\Debug\Viz.exe
+H:\11.o\aaf\Viz\obj\Debug\Viz.pdb

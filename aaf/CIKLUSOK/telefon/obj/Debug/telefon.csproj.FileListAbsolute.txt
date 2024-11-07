@@ -1,0 +1,7 @@
+H:\11.o\aaf\CIKLUSOK\telefon\bin\Debug\telefon.exe.config
+H:\11.o\aaf\CIKLUSOK\telefon\bin\Debug\telefon.exe
+H:\11.o\aaf\CIKLUSOK\telefon\bin\Debug\telefon.pdb
+H:\11.o\aaf\CIKLUSOK\telefon\obj\Debug\telefon.csproj.AssemblyReference.cache
+H:\11.o\aaf\CIKLUSOK\telefon\obj\Debug\telefon.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\CIKLUSOK\telefon\obj\Debug\telefon.exe
+H:\11.o\aaf\CIKLUSOK\telefon\obj\Debug\telefon.pdb

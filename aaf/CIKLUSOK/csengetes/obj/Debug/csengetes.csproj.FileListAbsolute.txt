@@ -1,0 +1,7 @@
+H:\11.o\aaf\CIKLUSOK\csengetes\bin\Debug\csengetes.exe.config
+H:\11.o\aaf\CIKLUSOK\csengetes\bin\Debug\csengetes.exe
+H:\11.o\aaf\CIKLUSOK\csengetes\bin\Debug\csengetes.pdb
+H:\11.o\aaf\CIKLUSOK\csengetes\obj\Debug\csengetes.csproj.AssemblyReference.cache
+H:\11.o\aaf\CIKLUSOK\csengetes\obj\Debug\csengetes.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\CIKLUSOK\csengetes\obj\Debug\csengetes.exe
+H:\11.o\aaf\CIKLUSOK\csengetes\obj\Debug\csengetes.pdb

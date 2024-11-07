@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS iskola;
+
+USE iskola;

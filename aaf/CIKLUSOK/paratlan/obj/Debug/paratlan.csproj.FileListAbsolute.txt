@@ -1,0 +1,7 @@
+H:\11.o\aaf\CIKLUSOK\paratlan\bin\Debug\paratlan.exe.config
+H:\11.o\aaf\CIKLUSOK\paratlan\bin\Debug\paratlan.exe
+H:\11.o\aaf\CIKLUSOK\paratlan\bin\Debug\paratlan.pdb
+H:\11.o\aaf\CIKLUSOK\paratlan\obj\Debug\paratlan.csproj.AssemblyReference.cache
+H:\11.o\aaf\CIKLUSOK\paratlan\obj\Debug\paratlan.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\CIKLUSOK\paratlan\obj\Debug\paratlan.exe
+H:\11.o\aaf\CIKLUSOK\paratlan\obj\Debug\paratlan.pdb

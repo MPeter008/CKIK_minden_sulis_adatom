@@ -1,0 +1,14 @@
+E:\SULI\AAF\Szokoev\obj\Debug\Szokoev.csproj.AssemblyReference.cache
+E:\SULI\AAF\Szokoev\obj\Debug\Szokoev.csproj.CoreCompileInputs.cache
+E:\SULI\AAF\Szokoev\bin\Debug\Szokoev.exe.config
+E:\SULI\AAF\Szokoev\bin\Debug\Szokoev.exe
+E:\SULI\AAF\Szokoev\bin\Debug\Szokoev.pdb
+E:\SULI\AAF\Szokoev\obj\Debug\Szokoev.exe
+E:\SULI\AAF\Szokoev\obj\Debug\Szokoev.pdb
+H:\11.o\aaf\Szokoev\bin\Debug\Szokoev.exe.config
+H:\11.o\aaf\Szokoev\bin\Debug\Szokoev.exe
+H:\11.o\aaf\Szokoev\bin\Debug\Szokoev.pdb
+H:\11.o\aaf\Szokoev\obj\Debug\Szokoev.csproj.AssemblyReference.cache
+H:\11.o\aaf\Szokoev\obj\Debug\Szokoev.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\Szokoev\obj\Debug\Szokoev.exe
+H:\11.o\aaf\Szokoev\obj\Debug\Szokoev.pdb

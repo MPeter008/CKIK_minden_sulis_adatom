@@ -1,0 +1,85 @@
+body{
+	background-color: silver;
+	margin: 0px;
+}
+
+.header{
+	background-image: url("kepek/gnome.webp");
+	height: 450px;
+	/* background-repeat:no-repeat; *//*(no-)repeat - (nem) ismétli a képet*/
+	background-size: contain; /*szélességét */
+	/*background-size: cover; /*magasságát*/
+	margin: 0px;
+	text-align: center;
+	font-size: 300px;
+	color: red;
+	text-shadow: 3px 4px 5px green;
+	letter-spacing: 5px;
+	padding-top: 100px;
+	background-attachment: fixed;
+	
+}
+.harom{
+	height:450px;
+	
+}
+.egy{
+	background-image: url("kepek/mano.jpg");
+	float: left;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	top: 10%;
+}
+.ketto{
+	background-image: url("kepek/torpe.jpg");
+	float: right;
+	width: 50%;
+	height: 100%;
+	position: relative;
+	top: 10%;
+}
+
+p.negy{
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 15px;
+}
+
+h1.negy{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 15px;
+}
+
+img{
+	width: 50%;
+	height: 75%;
+	display: block;
+	margin: auto;
+}
+
+.kettoi{
+	background-image: url("kepek/torpe.jpg");
+	float: left;
+	width: 50%;
+	height: 2000px;
+	position: relative;
+	top: 10%;
+}
+
+p.negyi{
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 15px;
+}
+
+h1.negyi{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 15px;
+}

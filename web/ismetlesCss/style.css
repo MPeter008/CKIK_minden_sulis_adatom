@@ -1,0 +1,91 @@
+body{
+	background-color: lightgreen;
+	color: brown;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: cursive;
+}
+
+#div{
+	/*border: 1px solid black;*/
+	border-width:2px;
+	border-style:dotted;
+	border-top-style:solid;
+	border-color:red;
+	border-bottom-color:blue;
+	
+	padding: 10px;
+	/*padding: 5px 10px;*/
+	/*padding: 10px 15px 5px;*/
+	/*padding: 10px 9px 8px 7px;*/
+	
+	margin: 10px;
+	box-shadow: inset 3px 3px 3px grey;
+}
+
+#doboz{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 50px 50px 50px green;
+	margin: 0px 0px 0px 10px;
+	font-style: italic;
+	font-weight: bold;
+	margin: auto;
+}
+
+img{
+	width: 200px;
+	float: right;
+}
+
+.alma{
+	color: red;
+	/* font-weight: bold; */
+}
+
+
+.korte{
+	color: green;
+	/* font-weight: bold; */
+}	
+
+.alma, .korte{
+	font-weight: bold;
+}
+
+div .korte{
+	font-size: 20px;
+}
+
+div>.korte{
+	font-family: courier;
+	/* display: block; */
+}
+
+.belso{
+	display: inherit;
+}
+
+/* display: inline, block, inhertit, none, initial, inline-block */
+
+
+
+
+
+
+
+
+
+
+
+/*
+color, opacity, background*, border*, 
+box-shadow, box-sizing, margin*, padding*, overflow, display, float, z-index, rel,
+width*, height*, top, bottom, left, right, position, line-height, text-align, verticalalign, textjustify, texttransform, font, font-family, font-size, font-style, textdecoration, list-style*, cursor, letter-spacing, viewport, white-space), és ezek segítségével képes elvégezni a megfelelő formázási műveleteket (a *-gal jelölt elemek 
+több jellemzőt tartalmaznak, pl. margin-left, margin-right
+*/

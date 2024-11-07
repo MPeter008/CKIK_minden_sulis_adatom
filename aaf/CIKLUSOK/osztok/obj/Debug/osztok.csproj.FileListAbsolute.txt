@@ -1,0 +1,7 @@
+H:\11.o\aaf\CIKLUSOK\osztok\bin\Debug\osztok.exe.config
+H:\11.o\aaf\CIKLUSOK\osztok\bin\Debug\osztok.exe
+H:\11.o\aaf\CIKLUSOK\osztok\bin\Debug\osztok.pdb
+H:\11.o\aaf\CIKLUSOK\osztok\obj\Debug\osztok.csproj.AssemblyReference.cache
+H:\11.o\aaf\CIKLUSOK\osztok\obj\Debug\osztok.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\CIKLUSOK\osztok\obj\Debug\osztok.exe
+H:\11.o\aaf\CIKLUSOK\osztok\obj\Debug\osztok.pdb

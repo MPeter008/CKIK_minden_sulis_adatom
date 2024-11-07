@@ -1,0 +1,7 @@
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\bin\Debug\parameter.exe.config
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\bin\Debug\parameter.exe
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\bin\Debug\parameter.pdb
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\obj\Debug\parameter.csproj.AssemblyReference.cache
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\obj\Debug\parameter.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\obj\Debug\parameter.exe
+H:\11.o\aaf\PROGTÉTELEK\1-tombok\parameter\obj\Debug\parameter.pdb
