@@ -50,7 +50,7 @@ body{
 
 .feher-hatteres{
 	background-color:lightgray;
-	width: 50%;
+	/* width: 50%; */
 	height: 100%;
 	text-align: center;
 	
@@ -62,7 +62,7 @@ body{
 }
 .szoveg-kep{
 	background-color:white;
-	width: 50%;
+	/* width: 50%; */
 	height: 100%;
 	
 }

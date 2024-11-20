@@ -1,0 +1,7 @@
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\bin\Debug\jogositvany.exe.config
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\bin\Debug\jogositvany.exe
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\bin\Debug\jogositvany.pdb
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\obj\Debug\jogositvany.csproj.AssemblyReference.cache
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\obj\Debug\jogositvany.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\obj\Debug\jogositvany.exe
+H:\11.o\aaf\PROGTÉTELEK\jogositvany\obj\Debug\jogositvany.pdb
