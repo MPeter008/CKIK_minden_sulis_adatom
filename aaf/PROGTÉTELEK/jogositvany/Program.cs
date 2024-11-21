@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace jogositvany
 {
@@ -34,8 +35,117 @@ namespace jogositvany
                 //3.
                 jogsik[i] = adatok[2] == "I";
             }
-            Console.WriteLine(jogsik[0]);
-            
+
+            //F2 - Megszámolás
+
+            int db = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (jogsik[i])
+                {
+                    db++;
+                }
+            }
+            double szazalek = (double)db / n * 100;
+            Console.WriteLine("2. " + szazalek + "%");
+            //F3 - Keresés
+
+            i = 0;
+            while (i < n && !(korok[i] > 30 && !jogsik[i]))
+            {
+                i++;
+            }
+            if (i < n)
+            {
+                Console.WriteLine($"3. {nevek[i]}");
+            }
+            else
+            {
+                Console.WriteLine($"3. Nincs ilyen ember.");
+            }
+
+            //F4 - Min-Max Kiválasztás
+            //int maxe = korok[0];
+            //for (i = 1; i < n; i++)
+            //{
+            //    if (korok[i] > maxe)
+            //    {
+            //        maxe = korok[i];
+            //    }
+            //}
+            //int mine = korok[0];
+            //for (i = 1; i < n; i++)
+            //{
+            //    if (korok[i] < mine)
+            //    {
+            //        mine = korok[i];
+            //    }
+            //}
+
+            int maxe = korok[0];
+            int mine = korok[0];
+            for (i = 1; i < n; i++)
+            {
+                if (korok[i] > maxe)
+                {
+                    maxe = korok[i];
+                }
+                if (korok[i] < mine)
+                {
+                    mine = korok[i];
+                }
+
+            }
+            Console.WriteLine($"4. {maxe-mine}");
+
+            // F5 - Megszamolas
+
+            int huszfelett = 0;
+            int huszalatt = 0;
+            for (i = 0; i < n; i++)
+            {
+                if (korok[i] > 20)
+                {
+                    huszfelett++;
+                }
+                else
+                {
+                    huszalatt++;
+                }
+            }
+            if (huszalatt < huszfelett)
+            {
+                Console.WriteLine("5. Igaz, hogy a 20 felettiek többen vannak");
+            }
+            else
+            {
+                Console.WriteLine("5. Hamis, a 20 alattiak vannak többen");
+            }
+
+            // F6 - Keresés
+
+            i = 0;
+            while (i < n && !(nevek[i][0] == 'F'))
+            {
+                i++;
+            }
+            if (i < n)
+            {
+                Console.WriteLine($"6. Van ilyen nev: {nevek[i]}");
+            }
+            else
+            {
+                Console.WriteLine("6. Nincs ilyen nev");
+            }
+
+            // F7 - Összegzés
+
+            int utsotiz = 0;
+            for (i = 0; i < n; i++)
+            {
+                utsotiz = utsotiz + korok[n - 1];
+            }
+            Console.WriteLine(utsotiz);
             //Console.ReadKey();
         }
     }
