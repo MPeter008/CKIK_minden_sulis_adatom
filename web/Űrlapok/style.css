@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+}
+body{
+    background-color: brown;
+}
+fieldset{
+    background-color: red;
+    border-color: darkred;
+    border-radius: 10px;
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+legend{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.nagyobb{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+textarea{
+    text-align:center;
+}
+div{
+    text-align: center;
+}

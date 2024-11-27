@@ -4,50 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <h1>Űrlap használat</h1>
         <form>
-            <p>
-                <label>
-                    Név
-                </label>
-                <input type="text" placeholder="példaszöveg"/>
-            </p>
-            <p>
-                <label>
-                    Email:
-                </label>
-                <input type="email" placeholder="valami@valami.v"/>
-            </p>
-            <p>
-                <label>
-                    Születési év:
-                </label>
-                <input type="number" value="2000" min="1904" max="2024">
-            </p>
-            <p>
-                <label>Legmagasabb iskolai végzettség</label>
+            <fieldset>
                 <p>
-                    <input type="radio" name="vegzettseg" checked>
-                    <label>
-                        8 általános
+                    <label class="nagyobb">
+                        Név
                     </label>
-                    <br>
-                    <input type="radio" name="vegzettseg">
-                    <label>
-                        Érettségi
-                    </label>
-                    <br>
-                    <input type="radio" name="vegzettseg">
-                    <label>
-                        Egyetem
-                    </label>
-                    <br>
+                    <input type="text" placeholder="példaszöveg"/>
                 </p>
-            </p>
-            <p>
-                <label>Neme</label>
+                <p>
+                    <label class="nagyobb">
+                        Email:
+                    </label>
+                    <input type="email" placeholder="valami@valami.v"/>
+                </p>
+                <p>
+                    <label class="nagyobb">
+                        Születési év:
+                    </label>
+                    <input type="number" value="2000" min="1904" max="2024">
+                </p>
+                <p>
+                <label class="nagyobb">
+                    Neme
+                </label>
                 <p>
                     <input type="radio" name="nem" checked>
                     <label>
@@ -66,8 +50,36 @@
                     <br>
                 </p>
             </p>
+            </fieldset>
+            <fieldset>
             <p>
-                <label>Kedvenc színe(i)</label>
+                <label class="nagyobb">
+                    Legmagasabb iskolai végzettség
+                </label>
+                <p>
+                    <input type="radio" name="vegzettseg" checked>
+                    <label>
+                        8 általános
+                    </label>
+                    <br>
+                    <input type="radio" name="vegzettseg">
+                    <label>
+                        Érettségi
+                    </label>
+                    <br>
+                    <input type="radio" name="vegzettseg">
+                    <label>
+                        Egyetem
+                    </label>
+                    <br>
+                </p>
+            </p>
+            </fieldset>
+            <fieldset>
+            <p>
+                <label class="nagyobb">
+                    Kedvenc színe(i)
+                </label>
                 <p>
                     <input type="checkbox" name="piros" checked>
                     <label>
@@ -96,9 +108,48 @@
                     <br>
                 </p>
             </p>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                <legend class="nagyobb">Válasszon mindegyikből egyet</legend>
+                <p></p>
+                <label>
+                    Kedvenc autómárka
+                </label>
+                <select size="3" multiple>
+                    <option value="dodge">Dodge</option>
+                    <option value="pontiac" selected>Pontiac</option>
+                    <option value="skoda">Skoda</option>
+                    <option value="ford">Ford</option>
+                    <option value="dmc">DMC</option>
+                </select>
+                <p>
+                    
+                    <label>
+                        Kedvenc zenei stílus
+                    </label>
+                    
+                    <input list="Music">
+                    <datalist id="Music">
+                        <option value="rock">Rock</option>
+                        <option value="metal">Metal</option>
+                        <option value="drum 'n bass">Drum 'n bass</option>
+                    </datalist>
+                    </div>
+                </p>    
+            </fieldset>
+            <fieldset>
+                <legend class="nagyobb">További vélemények</legend>
+                <div>
+                <textarea name="" id="" rows="8" cols="50">Ide várjuk válaszát...</textarea>
+                </div>
+            </fieldset>
             <input type="button" value="OK" disabled>
             <input type="submit">
-            <button>Kilépés</button>
+            <button>
+                Kilépés
+            </button>
             <input type="reset" value="Adatok törlése">
         </form>
     </body>

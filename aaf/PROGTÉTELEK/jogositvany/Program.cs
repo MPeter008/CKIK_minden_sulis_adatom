@@ -141,11 +141,12 @@ namespace jogositvany
             // F7 - Összegzés
 
             int utsotiz = 0;
-            for (i = 0; i < n; i++)
+            for (i = n-10; i < n; i++)
             {
-                utsotiz = utsotiz + korok[n - 1];
+                utsotiz += korok[i];
             }
-            Console.WriteLine(utsotiz);
+            double atlag = (double) utsotiz / 10;
+            Console.WriteLine("7. " + atlag);
             //Console.ReadKey();
         }
     }

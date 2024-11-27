@@ -1,0 +1,58 @@
+# 1. Feladat
+# Listázza ki a legalább 20 éves tanulókat
+
+SELECT *
+FROM tanuló
+ORDER BY tanuló.születésiDátum <= "2004-11-26";
+
+# 2. Feladat
+
+# Rendezze a tanulókat átlaguk alapján csökkenő sorrendben.
+SELECT *
+FROM tanuló
+ORDER BY tanuló.átlag DESC;
+
+# Jelenítse meg a legjobb 10 tanulót.
+SELECT *
+FROM tanuló
+ORDER BY tanuló.átlag DESC
+LIMIT 10;
+
+
+-----------------  3 plusz  ---------------------------------------
+
+# 3. Feladat
+
+# Listázza ki a bukásra álló diákokat.
+SELECT *
+FROM tanuló
+ORDER BY tanuló.átlag > 2;
+
+# 4. Feladat
+
+# Számolja meg a nő diákok számát.
+SELECT COUNT(*)
+FROM tanuló
+WHERE tanuló.nem = 'Nő';
+'498'
+
+-----------------  1 plusz  ---------------------------------------
+
+# 5. Feladat
+
+# Számolja meg hány tanuló jár a Közgáz iskolába.
+SELECT COUNT(*)
+FROM tanuló
+WHERE tanuló.iskolaAzonosító = 1;
+'501'
+
+# 6. Feladat
+
+# Csoportosítsa a születési hely alapján a tanulókat és számolja meg városonként mennyi tanuló van.
+# Így jelenítsd meg az oszlopokat: [születésiHely][db]
+
+
+
+-----------------  1 plusz  ---------------------------------------
+
+

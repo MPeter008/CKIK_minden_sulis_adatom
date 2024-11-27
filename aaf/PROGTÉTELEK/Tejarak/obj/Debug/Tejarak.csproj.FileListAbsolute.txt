@@ -1,0 +1,7 @@
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\bin\Debug\Tejarak.exe.config
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\bin\Debug\Tejarak.exe
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\bin\Debug\Tejarak.pdb
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\obj\Debug\Tejarak.csproj.AssemblyReference.cache
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\obj\Debug\Tejarak.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\obj\Debug\Tejarak.exe
+H:\11.o\aaf\PROGTÉTELEK\Tejarak\obj\Debug\Tejarak.pdb
