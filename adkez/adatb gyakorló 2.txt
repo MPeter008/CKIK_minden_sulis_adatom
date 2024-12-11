@@ -1,0 +1,55 @@
+# 1. Feladat
+# Listázza ki az összes olyan filmet, ami "Az" vagy "A" szavakkal kezdődnek.
+
+SELECT *
+FROM film
+WHERE film.cim LIKE "A %" or film.cim LIKE "Az %";
+
+
+# 2. Feladat
+# Listázza ki melyik évben hány filmet adtak ki. 
+
+SELECT film.ev, COUNT(*) as "HanyDarab"
+FROM film
+GROUP BY film.ev;
+
+------------ 1 plusz ------------
+
+# 3. Feladat
+# Számolja meg átlagosan hány karakter van a filmek címeiben.
+
+SELECT AVG(CHAR_LENGTH(film.cim)) as "Atlag_Szoszam"
+FROM film;
+
+# 4. Feladat
+# Adja meg az előadások átlag bevételét.
+SELECT AVG(eloadas.bevetel) as "Atlag_Bevetel"
+FROM eloadas;
+
+
+------------- 1 plusz --------------
+
+# 5. Feladat
+# Adja meg melyik moziban a legdrágább a jegy.
+# Ez legyen megjelenítve: [moziNeve][jegyAr] 
+
+SELECT mozi.nev as "moziNeve", MAX(eloadas.bevetel / eloadas.nezoszam) as "jegyAr"
+FROM mozi, eloadas;
+
+# 6. Feladat
+# Számolja meg városonként hány férőhelyesek a mozik.
+
+SELECT mozi.varos, AVG(mozi.ferohely)
+FROM mozi
+GROUP BY mozi.varos;
+
+------------ 2 plusz ---------------
+
+# 7. Feladat
+# Adja meg hónaponként mennyi volt az átlag bevétele az előadásoknak és kerekítse 2 tizedesjegyre a kapott átlagos bevételeket.
+TIPP: ROUND(érték, tizedesjegyekSzáma)
+
+SELECT CONCAT(YEAR(eloadas.datum),"-", MONTH(eloadas.datum)), AS "dátum", ROUND(AVG(eloadas.bevetel),2) "átlag bevétel"
+FROM eloadas
+GROUP BY YEAR(eloadas.datum), MONTH(eloadas.datum);
+-------------- 3 plusz --------------

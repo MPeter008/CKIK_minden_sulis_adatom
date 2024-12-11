@@ -1,0 +1,7 @@
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\bin\Debug\fenyofa.exe.config
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\bin\Debug\fenyofa.exe
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\bin\Debug\fenyofa.pdb
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\obj\Debug\fenyofa.csproj.AssemblyReference.cache
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\obj\Debug\fenyofa.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\obj\Debug\fenyofa.exe
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\fenyofa\obj\Debug\fenyofa.pdb

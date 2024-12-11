@@ -1,0 +1,33 @@
+# szem_papirgyujtes
+
+# 1. Feladat
+# Számold össze hány Júlia nevű tanuló van felvéve az adatbázisban
+# Így jelenjen meg: [db]
+
+SELECT COUNT(*) AS "db"
+FROM tanulok
+WHERE SUBSTRING_INDEX(tanulok.nev, " ", -1) = "Júlia";
+
+
+# 2. Feladat
+# Számold ki osztályonként hány tanuló van felvéve az adatbázisba
+# Így jelenjen meg: [osztaly][tanulokSzama]
+
+SELECT tanulok.osztaly, COUNT(tanulok.osztaly) AS "tanulokSzama"
+FROM tanulok
+GROUP BY tanulok.osztaly;
+
+
+# 3. Feladat
+# Kapcsold össze a tanulok és leadasok táblákat a tanult módszerekkel.
+# Számold meg tanulónként mennyi papírt adtak le.
+# Így jelenjen meg: [tanulo neve][mennyiseg]
+
+# 4. Feladat
+# Számold meg, hogy október 3.-ától október 10.-éig hány papírt adtak le
+# Így jelenjen meg: [datum][db]
+
+# 5. Feladat
+# Adja meg melyik napon mennyi papírt adtak le.
+# A lekérdezést csökkenő sorrendben jelenítse meg a mennyiség alapján
+# Így jelenjenek meg az oszlopok: [nap][mennyiseg]

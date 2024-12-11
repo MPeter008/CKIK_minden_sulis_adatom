@@ -8,7 +8,7 @@
 </head>
     <body>
         <h1>Űrlap használat</h1>
-        <form>
+        <form id="formstyle" class="formclass" >
             <fieldset>
                 <p>
                     <label class="nagyobb">
@@ -111,12 +111,18 @@
             </fieldset>
 
             <fieldset>
-                <div>
-                <legend class="nagyobb">Válasszon mindegyikből egyet</legend>
+                
+                <legend class="nagyobb">
+                    Válasszon mindegyikből egyet
+                </legend>
                 <p></p>
-                <label>
+                <div>
+                <p>
+                <label class="nagyobb">
                     Kedvenc autómárka
                 </label>
+                </p>
+                <p>
                 <select size="3" multiple>
                     <option value="dodge">Dodge</option>
                     <option value="pontiac" selected>Pontiac</option>
@@ -124,20 +130,22 @@
                     <option value="ford">Ford</option>
                     <option value="dmc">DMC</option>
                 </select>
+                </p>
                 <p>
                     
-                    <label>
+                    <label class="nagyobb">
                         Kedvenc zenei stílus
                     </label>
-                    
+                    <br>
                     <input list="Music">
                     <datalist id="Music">
                         <option value="rock">Rock</option>
                         <option value="metal">Metal</option>
                         <option value="drum 'n bass">Drum 'n bass</option>
                     </datalist>
-                    </div>
-                </p>    
+                </p>  
+                </div>
+                   
             </fieldset>
             <fieldset>
                 <legend class="nagyobb">További vélemények</legend>
@@ -145,6 +153,30 @@
                 <textarea name="" id="" rows="8" cols="50">Ide várjuk válaszát...</textarea>
                 </div>
             </fieldset>
+
+            <fieldset>
+                <legend class="nagyobb">Értékelés</legend>
+                <label class="nagyobb">
+                    Százalékos értékelés
+                </label>
+                <br>
+                <input id="csuszka" type="range" min="0" max="100" onchange="ErtekKiirat()">
+                <p id="csuszkaErteke">
+                    <script>
+                        function ErtekKiirat()
+                        {
+                         document.getElementById("csuszkaErteke").innerHTML = 
+                            document.getElementById("csuszka").value;   
+                        }
+                    </script>
+                </p>
+            </fieldset>
+            <fieldset id="imgFieldset">
+                <legend>Képek</legend>
+                <img src="../kepek/irorszag1.jpg" alt="irorszag1">
+                <img src="../kepek/irorszag2.jpg" alt="irorszag2">
+            </fieldset>
+
             <input type="button" value="OK" disabled>
             <input type="submit">
             <button>

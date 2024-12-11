@@ -1,0 +1,7 @@
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\bin\Debug\nagyesdraga.exe.config
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\bin\Debug\nagyesdraga.exe
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\bin\Debug\nagyesdraga.pdb
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\obj\Debug\nagyesdraga.csproj.AssemblyReference.cache
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\obj\Debug\nagyesdraga.csproj.CoreCompileInputs.cache
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\obj\Debug\nagyesdraga.exe
+H:\11.o\aaf\PROGTÉTELEK\2-alapfeladatok\nagyesdraga\obj\Debug\nagyesdraga.pdb

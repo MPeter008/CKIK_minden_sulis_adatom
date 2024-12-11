@@ -3,6 +3,7 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     color:whitesmoke;
+    text-shadow: 5px 5px 8px rgb(0, 0, 128), -5px -5px 8px rgb(0, 128, 0) ;
 }
 body{
     background-color: brown;
@@ -11,15 +12,18 @@ fieldset{
     background-color: red;
     border-color: darkred;
     border-radius: 10px;
+    box-shadow: inset -5px -5px 8px black;
 }
 label{
     color: white;
     font-weight: bold;
+    text-shadow: 5px 5px 8px black;
 }
 legend{
     color: white;
     font-weight: bold;
     text-align: center;
+    text-shadow: 5px 5px 8px black;
 }
 .nagyobb{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -27,7 +31,43 @@ legend{
 }
 textarea{
     text-align:center;
+    width: 100%;
 }
 div{
     text-align: center;
 }
+
+#csuszka{
+    width: 75%;
+    float: left;
+}
+form{
+    background-color: rgb(165, 42, 42);
+    border-color: darkred;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 8px black;
+
+}
+fieldset img{
+    width: 500px;
+}
+
+#imgFieldset{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+}
+/* #formstyle{
+    background-color: blue;
+}
+form#formstyle{
+    background-color: rgb(255, 230, 0);
+}
+.formclass{
+    background-color: red;
+}
+form.formclass{
+    background-color: pink;
+} */
